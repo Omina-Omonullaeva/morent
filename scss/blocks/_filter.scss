@@ -138,6 +138,8 @@
     }
     .filter__item {
         width: 327px;
+        width: 100%;
+        max-width: 576px;
         padding: 16px;
     }
     .filter__item:nth-child(2) {

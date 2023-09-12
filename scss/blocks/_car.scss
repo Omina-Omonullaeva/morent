@@ -174,9 +174,13 @@
         overflow-x: scroll;
     }
 
+    .car__list {
+        width: 100%;
+        max-width: 576px;
+    }
+
     .car__item {
         padding: 16px;
-        width: 100%;
         height: 427px;
     }
 

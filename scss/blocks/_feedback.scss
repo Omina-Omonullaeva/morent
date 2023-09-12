@@ -104,3 +104,10 @@
     letter-spacing: -0.32px;
 
 }
+
+@media only screen and (max-width:576px) {
+    .feedback__inner {
+        width: 100%;
+        max-width: 576px;
+    }
+}

@@ -197,10 +197,18 @@
 
     .design__inner {
         background-size: cover;
+        width: 100%;
+        max-width: 576px;
     }
 
     .design__image {
         width: 124px;
         height: 100px;
+    }
+
+    .design__image-wrapper,
+    .design__wrapper {
+        width: 100%;
+        max-width: 576px;
     }
 }

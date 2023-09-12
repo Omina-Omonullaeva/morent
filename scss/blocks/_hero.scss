@@ -63,10 +63,24 @@
 
 @media only screen and (max-width:576px) {
     .hero__item {
+        width: 100%;
+        max-width: 530px;
+        border-radius: 10px;
         background-size: cover;
+        background-image: url(/images/hero-bg.png);
+        padding: 16px 0 86px 16px;
     }
-
+    
     .hero__item--2 {
         display: none;
+    }
+    
+    .hero__title {
+        margin-bottom: 12px;
+        font-size: 18px;
+    }
+    
+    .hero__link {
+        font-size: 12px;
     }
 }

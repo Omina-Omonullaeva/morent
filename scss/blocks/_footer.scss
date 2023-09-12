@@ -1,0 +1,154 @@
+.site-footer {
+    background-color: #fff;
+    padding: 80px 0 60px;
+}
+
+.site-footer__inner-top {
+    padding-bottom: 36px;
+    border-bottom: 0.50px rgba(19, 19, 19, 0.16) solid;
+    @include flexbox;
+    align-items: start;
+}
+
+.site-footer__wrapper {
+    width: 292px;
+}
+
+.site-footer__logo {
+    margin-bottom: 16px;
+}
+
+.site-footer__text {
+    margin: 0;
+    margin-bottom: 20px;
+    color: rgba(19, 19, 19, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.site-footer__sublink {
+    @include link-unstyled;
+    margin-bottom: 17px;
+    color: rgba(19, 19, 19, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.site-footer__sublink:last-child {
+    margin-bottom: 0;
+}
+
+.site-footer__subwrapper {
+    display: flex;
+    gap: 60px;
+}
+
+.site-footer__title {
+    margin: 0;
+    margin-bottom: 24px;
+    color: #1A202C;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.site-footer__list {
+    @include list-unstyled
+}
+
+.site-footer__btn {
+    @include link-unstyled;
+    margin-bottom: 20px;
+    color: rgba(19, 19, 19, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.site-footer__btn--last-child {
+    margin: 0;
+}
+
+.site-footer__btn:hover,
+.site-footer__sublink:hover {
+    @include transition;
+    color: #000;
+}
+
+.site-footer__inner-bottom {
+    @include flexbox;
+    padding-top: 36px;
+}
+
+.site-footer__desc {
+    margin: 0;
+    color: #1A202C;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.site-footer__sublist {
+    display: flex;
+    gap: 32px;
+    @include list-unstyled;
+
+}
+
+@media only screen and (max-width: 576px) {
+    .site-footer__inner-top {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .site-footer__subwrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 524px) {
+    .site-footer__inner-top {
+        border: none;
+    }
+
+    .site-footer__inner-bottom {
+        flex-direction: column-reverse;
+        align-items: start;
+        gap: 32px;
+    }
+
+}
+
+@media only screen and (max-width: 370px) {
+    .site-footer__inner-top {
+        border: none;
+    }
+    
+    .site-footer__inner-bottom {
+        flex-direction: column-reverse;
+        align-items: start;
+        gap: 32px;
+    }
+
+    .site-footer__logo {
+        width: 108px;
+        height: 28px;
+    }
+
+    .site-footer__btn {
+        font-size: 14px;
+    }
+    
+    .site-footer__desc {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 340px) {
+    .site-footer__text {
+        font-size: 13px;
+    }
+}

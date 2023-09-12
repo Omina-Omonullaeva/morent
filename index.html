@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="site-header__inner">
+                <div class="site-header__wrapper">
+                    <a class="site-header__link" href="./index.html">
+                        <img class="site-header__logo" src="./images/Logo.svg" width="148" height="44" alt="Morent Logo">
+                    </a>
+                    
+                    <form class="site-header__form" method="post" action="https://echo.htmlacademy.ru/">
+                        <input class="site-header__input" type="text" placeholder="Search something here" aria-label="Search something here">
+                    </form>
+                </div>
+                
+                <div class="site-header__subwrapper">
+                    <button class="site-header__btn"></button>
+                    <button class="site-header__btn"></button>
+                    <button class="site-header__btn"></button>
+                    <button class="site-header__btn"></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main class="site-main">
+        <section class="hero">
+            <div class="container">
+                <h1 class="visually-hidden">Morent</h1>
+                <ul class="hero__list">
+                    <li class="hero__item">
+                        <div class="hero__wrapper">
+                            <h2 class="hero__title">The Best Platform for Car Rental</h2>
+                            <p class="hero__text">Ease of doing a car rental safely and reliably. Of course at a low price.</p>
+                            <a class="hero__link" href="#">Rental Car</a>
+                        </div>
+                    </li>
+                    
+                    <li class="hero__item hero__item--2">
+                        <div class="hero__wrapper">
+                            <h2 class="hero__title">Easy way to rent a car at a low price</h2>
+                            <p class="hero__text">Providing cheap car rental services and safe and comfortable facilities.</p>
+                            <a class="hero__link hero__link--second" href="#">Rental Car</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        
+        <!-- <section class="filter">
+            <div class="container">
+                
+            </div>
+        </section> -->
+        
+        <section class="car">
+            <div class="container">
+                <div class="car__wrapper">
+                    <h2 class="car__title">Popular Car</h2>
+                    <a class="car__link" href="./something.html">View All</a>
+                </div>
+                <ul class="car__list">
+                    <li class="car__item">
+                        <h3 class="car__subtitle">Koenigsegg</h3>
+                        <p class="car__text">Sport</p>
+                        <img src="./images/car1.png" width="248" height="72" alt="car img">
+                        <div class="car__subwrapper">
+                            <p class="car__desc">90L</p>
+                            <p class="car__desc">Manual</p>
+                            <p class="car__desc">2 People</p>
+                        </div>
+                        <div class="car__subwrapper">
+                            <p class="car__subtext">$99.00/<span class="car__span">day</span></p>
+                            <a class="car__sublink" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="car__item">
+                        <h3 class="car__subtitle">Nissan GT - R</h3>
+                        <p class="car__text">Sport</p>
+                        <img src="./images/car2.png" width="248" height="72" alt="car img">
+                        <div class="car__subwrapper">
+                            <p class="car__desc">80L</p>
+                            <p class="car__desc">Manual</p>
+                            <p class="car__desc">2 People</p>
+                        </div>
+                        <div class="car__subwrapper">
+                            <div class="car__box">
+                                <p class="car__subtext">$80.00/<span class="car__span">day</span></p>
+                                <p class="car__span car__span--second">$100.00</p>
+                            </div>
+                            <a class="car__sublink" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="car__item">
+                        <h3 class="car__subtitle">Rolls - Royce</h3>
+                        <p class="car__text">Sedan</p>
+                        <img src="./images/car3.png" width="248" height="72" alt="car img">
+                        <div class="car__subwrapper">
+                            <p class="car__desc">70L</p>
+                            <p class="car__desc">Manual</p>
+                            <p class="car__desc">4 People</p>
+                        </div>
+                        <div class="car__subwrapper">
+                            <p class="car__subtext">$96.00/<span class="car__span">day</span></p>
+                            <a class="car__sublink" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="car__item">
+                        <h3 class="car__subtitle">Nissan GT - R</h3>
+                        <p class="car__text">Sport</p>
+                        <img src="./images/car4.png" width="248" height="72" alt="car img">
+                        <div class="car__subwrapper">
+                            <p class="car__desc">80L</p>
+                            <p class="car__desc">Manual</p>
+                            <p class="car__desc">2 People</p>
+                        </div>
+                        <div class="car__subwrapper">
+                            <div class="car__box">
+                                <p class="car__subtext">$80.00/<span class="car__span">day</span></p>
+                                <p class="car__span car__span--second">$100.00</p>
+                            </div>
+                            <a class="car__sublink" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                </ul>
+                
+                <div class="car__wrapper">
+                    <h2 class="car__title">Recomendation Car</h2>
+                </div>
+                <ul class="car__list car__list--second">
+                    <li class="car__item">
+                        <h3 class="car__subtitle">All New Rush</h3>
+                        <p class="car__text">SUV</p>
+                        <div class="car__subinner">
+                            <img src="./images/car-1.png" width="248" height="100" alt="car img">
+                            <div class="car__subwrapper">
+                                <p class="car__desc">70L</p>
+                                <p class="car__desc">Manual</p>
+                                <p class="car__desc">6 People</p>
+                            </div>
+                        </div>
+                        <div class="car__subwrapper">
+                            <div class="car__box">
+                                <p class="car__subtext">$72.00/<span class="car__span">day</span></p>
+                                <p class="car__span car__span--second">$80.00</p>
+                            </div>
+                            <a class="car__sublink" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="car__item">
+                        <h3 class="car__subtitle">CR  - V</h3>
+                        <p class="car__text">SUV</p>
+                        <div class="car__subinner">
+                            <img src="./images/car-2.png" width="248" height="100" alt="car img">
+                            <div class="car__subwrapper">
+                                <p class="car__desc">80L</p>
+                                <p class="car__desc">Manual</p>
+                                <p class="car__desc">6 People</p>
+                            </div>
+                        </div>
+                        <div class="car__subwrapper">
+                            <p class="car__subtext">$80.00/<span class="car__span">day</span></p>
+                            <a class="car__sublink" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="car__item">
+                        <h3 class="car__subtitle">All New Terios</h3>
+                        <p class="car__text">SUV</p>
+                        <div class="car__subinner">
+                            <img src="./images/car-3.png" width="248" height="100" alt="car img">
+                            <div class="car__subwrapper">
+                                <p class="car__desc">90L</p>
+                                <p class="car__desc">Manual</p>
+                                <p class="car__desc">6 People</p>
+                            </div>
+                        </div>
+                        <div class="car__subwrapper">
+                            <p class="car__subtext">$74.00/<span class="car__span">day</span></p>
+                            <a class="car__sublink" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="car__item">
+                        <h3 class="car__subtitle">CR  - V</h3>
+                        <p class="car__text">SUV</p>
+                        <div class="car__subinner">
+                            <img src="./images/car-4.png" width="248" height="100" alt="car img">
+                            <div class="car__subwrapper">
+                                <p class="car__desc">80L</p>
+                                <p class="car__desc">Manual</p>
+                                <p class="car__desc">6 People</p>
+                            </div>
+                        </div>
+                        <div class="car__subwrapper">
+                            <p class="car__subtext">$80.00/<span class="car__span">day</span></p>
+                            <a class="car__sublink" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="car__item">
+                        <h3 class="car__subtitle">MG ZX Exclusice</h3>
+                        <p class="car__text">Hatchback</p>
+                        <div class="car__subinner">
+                            <img src="./images/car-5.png" width="248" height="100" alt="car img">
+                            <div class="car__subwrapper">
+                                <p class="car__desc">70L</p>
+                                <p class="car__desc">Manual</p>
+                                <p class="car__desc">4 People</p>
+                            </div>
+                        </div>
+                        <div class="car__subwrapper">
+                            <div class="car__box">
+                                <p class="car__subtext">$76.00/<span class="car__span">day</span></p>
+                                <p class="car__span car__span--second">$80.00</p>
+                            </div>
+                            <a class="car__sublink" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="car__item">
+                        <h3 class="car__subtitle">New MG ZS</h3>
+                        <p class="car__text">SUV</p>
+                        <div class="car__subinner">
+                            <img src="./images/car-6.png" width="248" height="100" alt="car img">
+                            <div class="car__subwrapper">
+                                <p class="car__desc">80L</p>
+                                <p class="car__desc">Manual</p>
+                                <p class="car__desc">6 People</p>
+                            </div>
+                        </div>
+                        <div class="car__subwrapper">
+                            <p class="car__subtext">$80.00/<span class="car__span">day</span></p>
+                            <a class="car__sublink" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="car__item">
+                        <h3 class="car__subtitle">MG ZX Excite</h3>
+                        <p class="car__text">Hatchback</p>
+                        <div class="car__subinner">
+                            <img src="./images/car-7.png" width="248" height="100" alt="car img">
+                            <div class="car__subwrapper">
+                                <p class="car__desc">90L</p>
+                                <p class="car__desc">Manual</p>
+                                <p class="car__desc">4 People</p>
+                            </div>
+                        </div>
+                        <div class="car__subwrapper">
+                            <p class="car__subtext">$74.00/<span class="car__span">day</span></p>
+                            <a class="car__sublink" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                    <li class="car__item">
+                        <h3 class="car__subtitle">New MG ZS</h3>
+                        <p class="car__text">SUV</p>
+                        <div class="car__subinner">
+                            <img src="./images/car-8.png" width="248" height="100" alt="car img">
+                            <div class="car__subwrapper">
+                                <p class="car__desc">80L</p>
+                                <p class="car__desc">Manual</p>
+                                <p class="car__desc">6 People</p>
+                            </div>
+                        </div>
+                        <div class="car__subwrapper">
+                            <p class="car__subtext">$80.00/<span class="car__span">day</span></p>
+                            <a class="car__sublink" href="#">Rent Now</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="car__btn-text">
+                    <a class="car__btn" href="#">Show more car</a>
+                    <p class="cars__link-text">120 Car</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="site-footer">
+        <div class="container">
+            <div class="site-footer__inner-top">
+                <div class="site-footer__wrapper">
+                    <a class="site-footer__link" href="./index.html">
+                        <img class="site-footer__logo" src="./images/Logo.svg" width="148" height="44" alt="Morent Logo">
+                    </a>
+                    <p class="site-footer__text">Our vision is to provide convenience and help increase your sales business.</p>
+                    <a class="site-footer__sublink" href="tel:+998905833597">+998 90 583-35-97</a>
+                    <a class="site-footer__sublink" href="mailto:morent@gmail.com">morent@gmail.com</a>
+                </div>
+                <div class="site-footer__subwrapper">
+                    <div class="site-footer__box">
+                        <p class="site-footer__title">About</p>
+                        <ul class="site-footer__list">
+                            <li class="site-footer__item">
+                                <a class="site-footer__btn" href="#">How it works</a>
+                            </li>
+                            <li class="site-footer__item">
+                                <a class="site-footer__btn" href="#">Featured</a>
+                            </li>
+                            <li class="site-footer__item">
+                                <a class="site-footer__btn" href="#">Partnership</a>
+                            </li>
+                            <li class="site-footer__item">
+                                <a class="site-footer__btn site-footer__btn--last-child" href="#">Bussiness Relation</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="site-footer__box">
+                        <p class="site-footer__title">Community</p>
+                        <ul class="site-footer__list">
+                            <li class="site-footer__item">
+                                <a class="site-footer__btn" href="#">Events</a>
+                            </li>
+                            <li class="site-footer__item">
+                                <a class="site-footer__btn" href="#">Blog</a>
+                            </li>
+                            <li class="site-footer__item">
+                                <a class="site-footer__btn" href="#">Podcast</a>
+                            </li>
+                            <li class="site-footer__item">
+                                <a class="site-footer__btn site-footer__btn--last-child" href="#">Invite a friend</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="site-footer__inner-bottom">
+                <p class="site-footer__desc">©2022 MORENT. All rights reserved</p>
+                <ul class="site-footer__sublist">
+                    <li class="site-footer__subitem">
+                        <a class="site-footer__button" href="https://twitter.com/" target="_blank">
+                            <img class="site-footer__img" src="./images/Twitter.svg" width="24" height="24" alt="Twitter logo">
+                        </a>
+                    </li>
+                    <li class="site-footer__subitem">
+                        <a class="site-footer__button" href="https://www.instagram.com/" target="_blank">
+                            <img class="site-footer__img" src="./images/Instagram.svg" width="24" height="24" alt="Instagram logo">
+                        </a>
+                    </li>
+                    <li class="site-footer__subitem">
+                        <a class="site-footer__button" href="https://www.linkedin.com/" target="_blank">
+                            <img class="site-footer__img" src="./images/LinkedIn.svg" width="24" height="24" alt="LinkedIn logo">
+                        </a>
+                    </li>
+                    <li class="site-footer__subitem">
+                        <a class="site-footer__button" href="https://www.telegram.com/" target="_blank">
+                            <img class="site-footer__img" src="./images/Telegram.svg" width="24" height="24" alt="Telegram logo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
